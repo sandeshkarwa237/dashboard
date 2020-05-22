@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <title>Dashboard</title>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <h1>Dashboard</h1>
+  <p>Edit the scss/style.scss file and it will automatically compile into css/style.css</p>
+    <header>
+      <div>
+        <nav>
+          <a href="#">Navbar</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          </button>
+          <div id="navbarNavAltMarkup">
+            <div>
+              <a href="index.html">Home</a>
+              <a href="#">Features</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+    <div>
+      <div>
+        <h4>Special title treatment</h4>
+        <p>With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+        <div>
+          <button id="add__new__list" type="button" data-toggle="modal" data-target="#bd-example-modal-lg">Add a new List</button>
+            <table>
+                <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>List Name</th>
+                    <th>Deadline</th>
+                    <th>Edit List </th>
+                    <th>list info</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>
+                        <a href="#">Edit</a>
+                        <a href="#">Delete</a>    
+                    </td>
+                    <td><a href="#">Details</a> </td>
+                  </tr>
+                  <tr>
+                    <th>2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>
+                        <a href="#">Edit</a>
+                        <a href="#">Delete</a>    
+                    </td>
+                    <td><a href="#">Details</a> </td>
+                  </tr>
+                  <tr>
+                    <th>3</th>
+                    <td>Larry the Bird</td>
+                    <td>       
+                        <a href="#">Edit</a>
+                        <a href="#">Delete</a> 
+                    </td>
+                    <td><a href="#">Details</a> </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <!-- Large modal -->
+        <div class="modal fade" id="bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                  <div>
+                    <h4>Special title treatment</h4>
+                    <p>With supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                    <div>
+                  <form>
+                    <div>
+                      <label for="listname">List name</label>
+                      <input type="text" name="listname" id="listname" placeholder="Enter your listname">
+                    </div>
+                    <div>
+                      <label for="datepicker">Deadline</label>
+                      <input type="text" name="datepicker" id="datepicker" placeholder="Pick up a date">
+                    </div>
+                    <div >
+                        <label for="datepicker">Add a list item</label>
+                        <div>
+                          <input type="text" placeholder="Add an item" aria-label="Search for...">
+                          <span>
+                            <button type="button">Go!</button>
+                          </span>
+                        </div>
+                      </div>
+                   <div>
+                     <button type="submit">Sign in</button>
+                  </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </main>
+    <!---->
+</body>
+
+</html>
